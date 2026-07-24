@@ -110,3 +110,5 @@ async function realizarLogin() {
         alert('Erro no login: ' + err.message);
     }
 }
+// Caminho: js/app.js
+import { supabase } from './supabaseClient.js';
