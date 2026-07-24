@@ -1,0 +1,28 @@
+/* Caminho: css/custom.css */
+/* Otimização de Toque e Leitura Noturna para Portaria */
+html, body {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Garantia de Botões Acessíveis para Dedos Grandes (Toque Rápido) */
+button, input, select, textarea {
+    min-height: 48px;
+    font-size: 16px !important; /* Impede zoom automático do iOS/Android */
+}
+
+/* Scrollbar Customizada Escura */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
